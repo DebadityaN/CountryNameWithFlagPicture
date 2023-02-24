@@ -1,0 +1,93 @@
+.button {
+    appearance: none;
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    
+    border-radius: 8px;
+    color: #212121;
+    font-size: 25px;
+    transition: 0.4s;
+    font-family: Montserrat;
+    display: block;
+    margin: 10px;
+    /*height: 25px;*/
+    width: 200px;
+    font-weight: 600;
+    text-align: center;
+    padding: 10px;
+    padding-bottom: 25px;
+
+    color: white;
+    box-shadow: inset 0 -10px 0 0 rgba(0, 0, 0, 0.2);
+}
+
+input {cursor: pointer;}
+
+.button:hover {
+    box-shadow:inset 0 -6px 0 0 rgba(0,0,0,0.17);
+    text-shadow: 0px 2px rgba(0,0,0,0.17);
+}
+
+.button:active {
+    box-shadow:inset 0 0px 0 0 rgba(0,0,0,0.17);
+    text-shadow: 0px 0px rgba(0,0,0,0.17);
+}
+
+#right {
+    display: inline-block;
+    height: 400px;
+    width: 200px;
+}
+
+#left {
+    display: inline-block;
+    height: 400px;
+    width: 800px;
+    text-align: center;
+}
+
+#main {
+    display: flex;
+    height: calc(100vh - 100px);
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    height: 100%;
+    /* width: 100%; */
+    border: 1px solid black;
+}
+
+/* COLOR PALLETE FOR BUTTONS */
+/* blue :    #2f6dae    */
+/* green :   #2c9ca6    */
+/* orange :  #eca82c    */
+/* red :     #d4546a    */
+
+#r1 {
+    background-color: #246bb7;
+}
+
+#r2 { 
+    background-color: #21a4b0;
+}
+
+#r3 {
+    background-color: #f7ac22;
+}
+
+#r4 {
+    background-color: #c95e70;
+}
+
+#submit {
+    margin-top: 30px;
+    background-color: #744077;
+}
+
+#message {
+    text-align: center;
+}
